@@ -1,0 +1,165 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2c2c2c;
+}
+
+.container {
+  max-width: 1278;
+  padding-left: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+}
+.logo {
+  margin-right: auto;
+}
+.navigation {
+  margin-right: 30px;
+}
+.nav-list {
+  display: flex;
+  gap: 28px;
+}
+.nav-link {
+  padding: 28px 0;
+  display: block;
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.nav-link:hover,
+.nav-link:focus {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #bbf330;
+}
+
+.main-button {
+  cursor: pointer;
+  background-color: #bbf330;
+  border: none;
+  border-radius: 30px;
+  /* padding: 6px 17px; */
+  min-width: 98px;
+  height: 32px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.hero {
+}
+.container {
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text-wrap {
+  max-width: 511px;
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+.hero-description {
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+.main-button {
+}
+.container {
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.about-wrapper {
+  max-width: 573px;
+}
+.about {
+  padding-top: 113px;
+  background-color: #ffe550;
+  padding-bottom: 124xp;
+}
+.about-title {
+}
+.about-text {
+  margin-bottom: 40px;
+}
+.about-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+.about-item {
+  width: calc((100% - 67px) / 2);
+}
+.about-subtitle {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.about-list-description {
+}
+.about-button {
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background-color: #fff;
+}
+
+.favorites {
+  padding-top: 120px;
+  padding-bottom: 101px;
+}
+.favorites-title {
+  font-size: 42px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.favorite-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.favorite-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.favorite-item {
+  width: calc((100% - 64px) / 3);
+}
