@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-  max-width: 1278;
+  max-width: 1280px;
   padding-left: 15px;
   padding-left: 15px;
   margin: 0 auto;
@@ -76,8 +76,7 @@ body {
 
 .hero {
 }
-.container {
-}
+
 .hero-container {
   display: flex;
   align-items: center;
@@ -99,8 +98,7 @@ body {
 }
 .main-button {
 }
-.container {
-}
+
 .about-container {
   display: flex;
   align-items: center;
