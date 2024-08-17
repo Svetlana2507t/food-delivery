@@ -161,3 +161,81 @@ body {
 .favorite-item {
   width: calc((100% - 64px) / 3);
 }
+.footer-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-f-container {
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-top-menu {
+  display: flex;
+  align-items: center;
+}
+.logo-footer {
+  margin-right: 143px;
+}
+.footer-nav-list {
+  display: flex;
+  gap: 28px;
+}
+.footer-nav-link {
+  font-size: 14px;
+  color: #2c2c2c;
+}
+.footer-right-form {
+}
+.footer-form-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-bottom: 12px;
+}
+.footer-form {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+.footer-input {
+  border: 0.85px solid #ffe550;
+  border-radius: 30px;
+  padding-left: 12px;
+  width: 279px;
+  height: 42px;
+  background: #fefefe;
+  outline: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+.footer-form-btn {
+  border: 0.85px solid #7eb101;
+  border-radius: 30px;
+  width: 103px;
+  height: 42px;
+  background-color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+.footer-form-text {
+}
+.footer-form-link {
+}
+.footer-bottom {
+}
+.footer-link-list {
+}
+.footer-link {
+}
+.footer-bottom-text {
+}
