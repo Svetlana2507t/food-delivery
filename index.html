@@ -192,15 +192,16 @@
           </div>
           <div class="form-div">
                 <form>
-                  <!-- <label for="email">Email:</label> -->
+                  <label for="user-email"></label> 
                   <input
                     type="email"
-                    id="email"
+                    id="user-email"
                     name="email"
+                    class="form-div-input"
                     placeholder="Enter your email"
                   />
                 </form>
-                <button type="submit">Subscribe</button>
+                <button class="form-div-btn" type="submit">Subscribe</button>
           </div>
 
           <div class="right-image">
@@ -211,7 +212,7 @@
       </section>
       <!-- #endregion Subscribe Section -->
     </main>
-  </body>
+  
   <footer class="footer-section">
     <div class="container footer-f-container">
       <div class="footer-top">
@@ -258,4 +259,34 @@
     </div>
     </div>
   </footer>
+ 
+  <div class="backdrop">
+      <div class="modal">
+  
+        <button type="submit" class="modal-close-btn">X</button>
+        
+        <p class="modal-title">Order Form</p>
+
+        <form class="modal-form">
+          <div class="modal-field">
+            <label for="user-name" class="modal-label">Name</label>
+            <input id="user-name" placeholder="Your name" type="text" class="modal-input">
+          </div>
+
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Phone number</label>
+            <input id="user-tel" placeholder="+38(0_ _) _ _ _   _ _   _ _" type="tel" class="modal-input">
+          </div>
+
+          <div class="modal-field">
+            <label for="user-email" class="modal-label">E-mail</label>
+            <input id="user-email" placeholder="example@gmail.com" type="email" class="modal-input">
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+         </form>
+
+      </div>
+    </div>
+ 
+  </body>
 </html>
